@@ -1,0 +1,65 @@
+.home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./assets/plano01.svg');
+    background-size: cover;
+    background-position: center;
+    
+
+    & h1 {
+       
+        font-size: 60px;
+        color: rgb(8, 8, 8);
+          
+
+    }
+    & span{
+    
+        color: rgb(8, 8, 8);
+        
+        font-size: 50px;
+    };
+
+    & h2 {
+
+       font-size: 34px;
+       color: rgb(83, 81, 81);
+     
+
+    }
+
+    
+}
+
+.imagem{
+
+        background-image: url('./assets/pai.svg');
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        border-radius: 50%;
+        border: rgb(102, 97, 97) solid 1px;
+    }
+
+    @media(max-width: 768px) {
+        .home {
+        height: 60vh;
+        .imagem{
+            width: 110px;
+            height: 110px;
+        }
+        & h1 {
+            font-size: 35px;
+        }
+        & span{
+            font-size: 24px;
+        }
+        & h2 {
+            font-size: 21px;
+        }
+    }
+}

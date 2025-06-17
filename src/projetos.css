@@ -1,0 +1,175 @@
+
+.projetos{
+    background:  #d8d8d8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+
+    .text02{
+        display: none;
+    }
+
+
+
+    & .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+
+        & h1{
+            color: #000000;
+            font-size: 3rem;
+            margin-top: 20px;
+        }
+
+        & p{
+            color: #000000;
+            margin-top: 10px;
+            padding-bottom: 20px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+
+    .projetos-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+
+        & .card{
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+            flex-direction:row;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+
+           
+
+            & img{
+                width: 500px;
+                height: 500px;
+
+                 &:hove{
+                 transform: scale(1.05);
+            }
+                
+            }
+
+            & h2{
+                margin-top: 20px;
+                font-size: 1.5rem;
+                color: #000000;
+                text-align: left;
+                padding: 16px;
+            }
+
+            & p{
+
+                padding: 16px;
+                text-align: justify;
+                font-size: 1.3rem;
+                color: #333333;
+               
+            }
+
+            & button{
+                background-color: #ffffff;
+                color: rgb(12, 12, 12);
+                border:  1px solid #070707 ;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 1.1rem;
+                margin-top: 19px;
+                margin-left: 15px;
+                
+
+                &:hover {
+                    background-color: #080808;
+                    border: #fcfcfc 1px solid;
+                    color: #f3eeee;
+                }
+            }
+        }
+
+    }
+}
+
+.projetos > h1 {
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.projetos > h1::after {
+    display: block;
+    border-radius: 20px;
+    margin: 12px auto 0 auto;
+    width: 60px;        /* ajuste o tamanho da linha aqui */
+    border-bottom: 5px solid red;
+}
+
+@media( max-width: 768px) {
+   
+    .projetos{
+        padding: 20px;
+
+        & .inicio h1{
+            font-size: 2rem;
+        }
+
+        & .inicio p{
+            font-size: 1.2rem;
+        }
+
+    .projetos-card{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        
+
+        & .card{
+            flex-direction: column-reverse;
+            align-items: center;
+            padding: 20px;
+
+            & img{
+                width: 100%;
+                height: auto;
+            }
+
+            & h2{
+            font-size: 30px;
+           text-align: center;
+        }
+        & p{
+            font-size: 1.2rem;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .text01{
+            display: none;
+        }
+        .text02{
+            display: block; 
+        }
+        }
+    }
+}
+}
