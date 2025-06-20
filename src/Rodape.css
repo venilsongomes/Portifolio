@@ -35,6 +35,18 @@
 
    & .social{
 
+    & a{
+        text-decoration: none;
+        color: #ffffff;
+
+        transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+
+        &:hover{
+            
+            transform: translateY(-4px);
+        }
+    }
+
 
     & img{
         border-radius: 50%;
@@ -47,7 +59,10 @@
         cursor: pointer;
 
         & :hover{
-            transform: scale(1.2);
+             background:  #6e6d6d;
+                    border: #fcfcfc 1px solid;
+                    transform: translateY(-4px);
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
     }
 

@@ -27,7 +27,8 @@ function Projetos() {
                             cliente e agilizar o processo de pedido. Utilizando React, JavaScript e Bootstrap,
                             a aplicação oferece uma experiência de usuário impecável, com um design limpo e navegação facilitada.
                             Os clientes podem explorar o menu de forma digital, com informações detalhadas e imagens dos produtos,
-                            eliminando a necessidade de cardápios físicos e proporcionando um atendimento mais eficiente. 
+                            eliminando a necessidade de cardápios físicos e proporcionando um atendimento mais eficiente.
+
                           </p> <button className="btn btn-outline-primary"> <a href="https://venilsongomes.github.io/Cardapio/ " target='_blank'>Vê Projeto</a></button>
 
                           <p className='text02'>Este projeto consiste em um cardápio online interativo e responsivo,
@@ -57,7 +58,7 @@ function Projetos() {
                 </div>
 
                 <div className="card">
-                    <img src={sigaa} alt="" />
+                    <div> < img  src={sigaa} alt="" />  </div>
                     <div>
                         <h2>Clone Sistema Acadêmico - UFG</h2>
                         <p className='text01'>
