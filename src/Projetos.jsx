@@ -6,7 +6,7 @@ import almoxarifado from './assets/almox.png'
 
 function Projetos() {
     return (
-        <div className='projetos'>
+        <div id='projetos' className='projetos'>
             <div className='inicio'>
                 <h1>Projetos</h1>
                 <p>
@@ -28,7 +28,7 @@ function Projetos() {
                             a aplicação oferece uma experiência de usuário impecável, com um design limpo e navegação facilitada.
                             Os clientes podem explorar o menu de forma digital, com informações detalhadas e imagens dos produtos,
                             eliminando a necessidade de cardápios físicos e proporcionando um atendimento mais eficiente. 
-                          </p> <button className="btn btn-outline-primary">Vê Projeto</button>
+                          </p> <button className="btn btn-outline-primary"> <a href="https://venilsongomes.github.io/Cardapio/ " target='_blank'>Vê Projeto</a></button>
 
                           <p className='text02'>Este projeto consiste em um cardápio online interativo e responsivo,
                             desenvolvido expecificamente para bar Tio Patinha, que desejava modernizar sua comunicação com o
@@ -48,7 +48,7 @@ function Projetos() {
                             para cadastro de produtos, controle de entrada e saída, rastreamento de itens e geração de relatórios,
                             proporcionando maior visibilidade e controle sobre os ativos.
                             Ideal para empresas que buscam modernizar sua logística interna e aumentar a precisão de seus inventários. 
-                          </p>  <button className="btn btn-outline-primary">Vê Projeto</button>
+                          </p>  <button className="btn btn-outline-primary"> <a href=" https://venilsongomes.github.io/Almox/ " target='_blank'>Ve Projeto</a></button>
 
                           <p className='text02'> Desenvolvi um sistema completo para a organização e o controle eficiente de almoxarifados,
                             projetado para otimizar a gestão de estoque e reduzir perdas.</p>
@@ -67,7 +67,7 @@ function Projetos() {
                             Desenvolvido com React, estilizado com CSS e Bootstrap, e hospedado no GitHub
                             Pages, ele demonstra minhas habilidades em desenvolvimento front-end,
                             design responsivo e deploy de aplicações. </p>
-                            <button className="btn btn-outline-primary">Vê Projeto</button>
+                            <button className="btn btn-outline-primary"><a href="https://venilsongomes.github.io/Sigaa/ " target='_blank'>Vê Projeto</a></button>
 
                             <p className='text02'> Este projeto é um clone do front-end do SIGAA (UFG),
                             onde repliquei a interface e a experiência de usuário do sistema acadêmico.</p>

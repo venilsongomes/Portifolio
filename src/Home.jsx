@@ -3,7 +3,7 @@ import './home.css';
 
 function Home() {
   return (
-     <section className="home">
+     <section id='home' className="home">
 
       <div className='imagem'> </div>
 

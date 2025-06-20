@@ -6,7 +6,7 @@ function Sobre(){
     return(
         
        
-       <div className="sobreMin"> 
+       <div id='sobre' className="sobreMin"> 
         <h1> Sobre Mim </h1> 
          <p> Aqui você encontrará mais informações sobre mim, 
             o que faço e minhas habilidades atuais, <br></br> principalmente 

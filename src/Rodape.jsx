@@ -1,11 +1,16 @@
-import Git from './assets/git.svg'
-import Zap from './assets/zap.svg'
+import Git from './assets/github.png'
+import Zap from './assets/whatsapp.png'
 import Likendin from './assets/likendin.svg'
 import x from './assets/x.svg'
-import ins from './assets/likendi.svg'
+import ins from './assets/linkedin.png'
+import twiter from './assets/twitter.png'
 import './Rodape.css'
+import { useEffect } from 'react';
+import PaginaOff from './Pagina_Off'
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 
 function Rodape() {
+
   return (
     <div className='rodape'>
       <div className='content'>
@@ -23,15 +28,19 @@ function Rodape() {
             <img src={Git} alt="" />
           </a>
           <a href="https://www.linkedin.com/in/venilsongomes/" target="_blank">
-            < img className='x' src={ins} alt="" />
+            < img className='x' src={Zap} alt="" />
           </a>
-          <a href="">
-            <img src={Likendin} alt="" />
+          <a href="https://www.linkedin.com/in/venilsongomes/" target="_blank">
+            <img src={ins} alt=""  />
           </a>
 
-           <a  href="">
-            <img  src={x} alt="" />
+          <a href="https://x.com/venilson1019" target="_blank">
+            <img src={twiter} alt=""  />
           </a>
+
+      
+           
+         
         </div>
       </div>
 
