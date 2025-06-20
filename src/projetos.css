@@ -103,6 +103,7 @@
                     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
                     border: #fcfcfc 1px solid;
                     color: #f3eeee;
+                    font-weight: bold;
                 }
 
                 & a{
@@ -166,6 +167,12 @@
         .text02{
             display: block; 
         }
+
+        & button{
+                
+                margin-left: 18px;
+                padding: 10px 20px;
+            }
         }
     }
 }
