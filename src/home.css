@@ -9,13 +9,11 @@
     background-size: cover;
     background-position: center;
     
-
     & h1 {
        
         font-size: 60px;
         color: rgb(8, 8, 8);
           
-
     }
     & span{
     
@@ -29,18 +27,15 @@
        font-size: 34px;
        color: rgb(83, 81, 81);
      
-
     }
-
-    
 }
 
 .imagem{
 
-        background-image: url('./assets/pai.svg');
+        background-image: url('./assets/pai.jpeg');
         width: 200px;
         height: 200px;
-        background-size: cover;
+        background-size:cover;
         border-radius: 50%;
         border: rgb(102, 97, 97) solid 1px;
     }
