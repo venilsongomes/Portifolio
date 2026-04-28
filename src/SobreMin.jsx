@@ -7,13 +7,19 @@ function Sobre(){
         
        
        <div id='sobre' className="sobreMin"> 
-        <h1> Sobre Mim </h1> 
+
+       <div class="text-center mb-12"> 
+
+        <h1 class="md:text-4xl mb-4 mt-8 font-semibold container-sobre"> Sobre Mim </h1> 
          <p> Aqui você encontrará mais informações sobre mim, 
             o que faço e minhas habilidades atuais, <br></br> principalmente 
             em termos de programação e tecnologia. 
-        </p>
+        </p>  
+        </div>
+        
 
-        <section className="conteiner-sobre">
+        <section className="flex justify-center gap-10 cavalo">
+
          <div className="conhecer">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-500">Habilidades</h2>
@@ -22,13 +28,14 @@ function Sobre(){
                     <p> "Estudante de Sistemas de Informação e apaixonado por inovação tecnológica. Minha base sólida em JavaScript, Java (POO) e C foi aprimorada com React e Node. 
                      Busco oportunidades para aplicar minha paixão, habilidade e dedicação em projetos de desenvolvimento inovadores. 
                      Vamos criar o futuro da tecnologia juntos 
-                     <br /> <button className="btn btn-outline-primary" >Contato</button>  </p>
+                     <br /> <button  className="btn btn-outline-primary" ><a className='text-decoration-none text-black' href="#contato">Contato</a></button>  </p>
              
             </div>
 
             
-         <div className="py-20 scroll-mt-20">
-            <h1 className='text-3xl md:text-4xl text-gray-300'> Minhas Skills</h1>
+         <div class="text-center mb-12 ">
+            <h1 className='mb-10 text-gray-500'> Minhas Skills</h1>
+
             <div className='skill'> 
 
                 <div class="flex flex-col items-center p-4 rounded-lg card">

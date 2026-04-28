@@ -1,18 +1,3 @@
-.Sobre {
-    display: flex;
-    width: 100%;
-    background: rgb(255, 255, 255);
-
-    & .button{
-       padding: 20px;
-        text-align: center;
-        background: rgb(51, 51, 50);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 12px;
-    }
-}
 
 .sobreMin{
     display: flex;
@@ -20,7 +5,7 @@
     padding-bottom: 100px;
 
 
-    & h1{
+    & h{
         padding: 20px;
         color: #000;
         text-align: center;
@@ -35,9 +20,7 @@
 
     & .conteiner-sobre{
         display: flex;
-        gap: 30px;
-        padding-left: 50px;
-        padding-right: 50px;
+
     }
     & .conhecer{
         width: 50%;
@@ -110,6 +93,7 @@
 
 @media (max-width: 768px) {
     .sobreMin{
+        
         & h1{
             font-size: 35px;
         }
@@ -130,5 +114,8 @@
     & .skill{
         grid-template-columns: repeat(2, 1fr);
 
+    }
+    .cavalo{
+        flex-direction: column;
     }
 }

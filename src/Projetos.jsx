@@ -6,10 +6,10 @@ import almoxarifado from './assets/almox.png'
 
 function Projetos() {
     return (
-        <div id='projetos' className='projetos'>
+        <div id='projetos' className='projetos bg-slate-500'>
             <div className='inicio'>
-                <h1>Projetos</h1>
-                <p>
+                <h1 className='md:text-4xl mb-4 mt-8 font-semibold text-xl' >Projetos</h1>
+                <p className='text-xl text-gray-200'>
                     Aqui você encontra minhas principais criações e habilidades em ação.
                 </p>
             </div>
@@ -17,10 +17,10 @@ function Projetos() {
             <div className='projetos-card'>
 
 
-                <div className="card">
+                <div className="card gap-10">
                     <img src={cardapio} alt="" />
                     <div>
-                        <h2>Cardápio</h2>
+                        <h2 className='text-gray-400'>Cardápio</h2>
                         <p className='text01'>
                             Este projeto consiste em um cardápio online interativo e responsivo,
                             desenvolvido expecificamente para bar Tio Patinha, que desejava modernizar sua comunicação com o
@@ -39,10 +39,10 @@ function Projetos() {
                     </div>
                 </div>
 
-                <div className="card">
+                <div className="card gap-10">
                     <img src={almoxarifado} alt="" />
                     <div>
-                        <h2>Almoxarifado</h2>
+                        <h2 className='text-gray-400'>Almoxarifado</h2>
                         <p className='text01'>
                             Desenvolvi um sistema completo para a organização e o controle eficiente de almoxarifados,
                             projetado para otimizar a gestão de estoque e reduzir perdas. A aplicação oferece funcionalidades essenciais
@@ -57,10 +57,10 @@ function Projetos() {
                     </div>
                 </div>
 
-                <div className="card">
+                <div className="card gap-10">
                     <div> < img  src={sigaa} alt="" />  </div>
                     <div>
-                        <h2>Clone Sistema Acadêmico - UFG</h2>
+                        <h2 className='text-gray-400'>Clone Sistema Acadêmico - UFG</h2>
                         <p className='text01'>
         
                             Este projeto é um clone do front-end do SIGAA (UFG),
