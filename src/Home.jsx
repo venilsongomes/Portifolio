@@ -8,7 +8,7 @@ function Home() {
 
       <div  className='imagem'> </div>
 
-        <h1>Venilson <span>Rocha </span> </h1>
+        <h1 class="text-4xl md:text-5xl font-bold text-white">Venilson <span class="text-highlight-color">Rocha</span> </h1>
         
         <h2>Dev Full Stack em Formação </h2>
 

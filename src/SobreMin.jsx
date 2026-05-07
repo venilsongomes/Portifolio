@@ -10,8 +10,8 @@ function Sobre(){
 
        <div class="text-center mb-12"> 
 
-        <h1 class="md:text-4xl mb-4 mt-8 font-semibold container-sobre"> Sobre Mim </h1> 
-         <p> Aqui você encontrará mais informações sobre mim, 
+        <h1 class="text-3xl md:text-4xl mt-10 mb-4 font-bold text-gray-500"> Sobre Mim </h1> 
+         <p className='text-xl'> Aqui você encontrará mais informações sobre mim, 
             o que faço e minhas habilidades atuais, <br></br> principalmente 
             em termos de programação e tecnologia. 
         </p>  
@@ -25,7 +25,7 @@ function Sobre(){
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-500">Habilidades</h2>
             </div>
             
-                    <p> "Estudante de Sistemas de Informação e apaixonado por inovação tecnológica. Minha base sólida em JavaScript, Java (POO) e C foi aprimorada com React e Node. 
+                    <p className=''> "Estudante de Sistemas de Informação e apaixonado por inovação tecnológica. Minha base sólida em JavaScript, Java (POO) e C foi aprimorada com React e Node. 
                      Busco oportunidades para aplicar minha paixão, habilidade e dedicação em projetos de desenvolvimento inovadores. 
                      Vamos criar o futuro da tecnologia juntos 
                      <br /> <button  className="btn btn-outline-primary" ><a className='text-decoration-none text-black' href="#contato">Contato</a></button>  </p>
@@ -34,7 +34,7 @@ function Sobre(){
 
             
          <div class="text-center mb-12 ">
-            <h1 className='mb-10 text-gray-500'> Minhas Skills</h1>
+            <h1 className='text-3xl md:text-4xl font-bold text-gray-500 mb-20'> Minhas Skills</h1>
 
             <div className='skill'> 
 

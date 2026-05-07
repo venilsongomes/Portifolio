@@ -6,77 +6,61 @@ import almoxarifado from './assets/almox.png'
 
 function Projetos() {
     return (
-        <div id='projetos' className='projetos bg-slate-500'>
-            <div className='inicio'>
-                <h1 className='md:text-4xl mb-4 mt-8 font-semibold text-xl' >Projetos</h1>
-                <p className='text-xl text-gray-200'>
-                    Aqui você encontra minhas principais criações e habilidades em ação.
-                </p>
-            </div>
+        <section id='projetos' className='py-20 scroll-mt-20 flex-col justify-center mb-10'>
 
-            <div className='projetos-card'>
-
-
-                <div className="card gap-10">
-                    <img src={cardapio} alt="" />
-                    <div>
-                        <h2 className='text-gray-400'>Cardápio</h2>
-                        <p className='text01'>
-                            Este projeto consiste em um cardápio online interativo e responsivo,
-                            desenvolvido expecificamente para bar Tio Patinha, que desejava modernizar sua comunicação com o
-                            cliente e agilizar o processo de pedido. Utilizando React, JavaScript e Bootstrap,
-                            a aplicação oferece uma experiência de usuário impecável, com um design limpo e navegação facilitada.
-                            Os clientes podem explorar o menu de forma digital, com informações detalhadas e imagens dos produtos,
-                            eliminando a necessidade de cardápios físicos e proporcionando um atendimento mais eficiente.
-
-                          </p> <button className="btn btn-outline-primary"> <a href="https://venilsongomes.github.io/Cardapio/ " target='_blank'>Vê Projeto</a></button>
-
-                          <p className='text02'>Este projeto consiste em um cardápio online interativo e responsivo,
-                            desenvolvido expecificamente para bar Tio Patinha, que desejava modernizar sua comunicação com o
-                            cliente e agilizar o processo de pedido.</p>
-                           
-                        
-                    </div>
-                </div>
-
-                <div className="card gap-10">
-                    <img src={almoxarifado} alt="" />
-                    <div>
-                        <h2 className='text-gray-400'>Almoxarifado</h2>
-                        <p className='text01'>
-                            Desenvolvi um sistema completo para a organização e o controle eficiente de almoxarifados,
-                            projetado para otimizar a gestão de estoque e reduzir perdas. A aplicação oferece funcionalidades essenciais
-                            para cadastro de produtos, controle de entrada e saída, rastreamento de itens e geração de relatórios,
-                            proporcionando maior visibilidade e controle sobre os ativos.
-                            Ideal para empresas que buscam modernizar sua logística interna e aumentar a precisão de seus inventários. 
-                          </p>  <button className="btn btn-outline-primary"> <a href=" https://venilsongomes.github.io/Almox/ " target='_blank'>Ve Projeto</a></button>
-
-                          <p className='text02'> Desenvolvi um sistema completo para a organização e o controle eficiente de almoxarifados,
-                            projetado para otimizar a gestão de estoque e reduzir perdas.</p>
-                        
-                    </div>
-                </div>
-
-                <div className="card gap-10">
-                    <div> < img  src={sigaa} alt="" />  </div>
-                    <div>
-                        <h2 className='text-gray-400'>Clone Sistema Acadêmico - UFG</h2>
-                        <p className='text01'>
-        
-                            Este projeto é um clone do front-end do SIGAA (UFG),
-                            onde repliquei a interface e a experiência de usuário do sistema acadêmico.
-                            Desenvolvido com React, estilizado com CSS e Bootstrap, e hospedado no GitHub
-                            Pages, ele demonstra minhas habilidades em desenvolvimento front-end,
-                            design responsivo e deploy de aplicações. </p>
-                            <button className="btn btn-outline-primary"><a href="https://venilsongomes.github.io/Sigaa/ " target='_blank'>Vê Projeto</a></button>
-
-                            <p className='text02'> Este projeto é um clone do front-end do SIGAA (UFG),
-                            onde repliquei a interface e a experiência de usuário do sistema acadêmico.</p>
-                        
-                    </div>
-                </div>
-            </div>
+           <div className=' text-center mb-12'>
+            <h2 className='text-3xl md:text-4xl font-bold gradient-text'>Projetos</h2> 
         </div>
+
+        <div class="grid grid-cols-3 gap-8 mb-10 px-4 max-[500px]:grid-cols-1 gap-4">
+              
+               <div class="">
+                
+                <div class="rounded-lg overflow-hidden card">
+               <img src={cardapio} alt="Imagem do Projeto Cardápio" className='w-full h-48 object-cover' />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-white">Cardápio Online</h3>
+                        <p class="text-gray-400 mb-4">Cardápio online interativo e responsivo para o bar Tio Patinha, agilizando o processo de pedidos e modernizando a comunicação.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/venilsongomes/Cardapio" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href="https://venilsongomes.github.io/Cardapio/" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+                
+                <div class="rounded-lg overflow-hidden card">
+               <img src={almoxarifado} alt="Imagem do Projeto Almoxarifado" className='w-full h-48 object-cover' />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-white">Almoxarifado</h3>
+                        <p class="text-gray-400 mb-4">Sistema de gerenciamento de estoque para o almoxarifado da universidade, otimizando o processo de controle de materiais e equipamentos.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/venilsongomes/Almoxarifado" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href="https://venilsongomes.github.io/Almoxarifado/" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+              
+
+                 <div class="">
+                
+                <div class="rounded-lg overflow-hidden card">
+               <img src={sigaa} alt="Imagem do Projeto Sigaa" className='w-full h-48 object-cover' />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-white">Sigaa</h3>
+                        <p class="text-gray-400 mb-4">Clone do Sistema de gerenciamento acadêmico para a Universidade Federal de Goiás.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/venilsongomes/sigaa" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href="https://venilsongomes.github.io/sigaa/" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                </div>
+        </section>
     )
 }
 export default Projetos;
