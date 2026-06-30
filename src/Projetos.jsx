@@ -3,6 +3,7 @@ import imf from './assets/pai.svg'
 import sigaa from './assets/sigaa.png'
 import cardapio from './assets/cardapio.png'
 import almoxarifado from './assets/almox.png'
+import clinica from './assets/clinica.png'
 
 function Projetos() {
     return (
@@ -15,6 +16,21 @@ function Projetos() {
         <div class="grid grid-cols-3 gap-8 mb-10 px-4 max-[500px]:grid-cols-1 gap-4">
               
                <div class="">
+
+                <div class="rounded-lg overflow-hidden card">
+               <img src={clinica} alt="Imagem do Projeto Clínica de Estética" className='w-full h-48 object-cover' />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-white">Clínica de Estética</h3>
+                        <p class="text-gray-400 mb-4">Landing page para clínica de estética.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/venilsongomes/clinica" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href="https://venilsongomes.github.io/clinica/" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="">
                 
                 <div class="rounded-lg overflow-hidden card">
                <img src={cardapio} alt="Imagem do Projeto Cardápio" className='w-full h-48 object-cover' />
@@ -29,20 +45,6 @@ function Projetos() {
                 </div>
                 </div>
 
-
-                
-                <div class="rounded-lg overflow-hidden card">
-               <img src={almoxarifado} alt="Imagem do Projeto Almoxarifado" className='w-full h-48 object-cover' />
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 text-white">Almoxarifado</h3>
-                        <p class="text-gray-400 mb-4">Sistema de gerenciamento de estoque para o almoxarifado da universidade, otimizando o processo de controle de materiais e equipamentos.</p>
-                        <div class="flex space-x-4">
-                            <a href="https://github.com/venilsongomes/Almoxarifado" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
-                            <a href="https://venilsongomes.github.io/Almoxarifado/" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
-                        </div>
-                    </div>
-                </div>
-              
 
                  <div class="">
                 
