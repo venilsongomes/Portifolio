@@ -2,10 +2,43 @@ import './projetos.css'
 import imf from './assets/pai.svg'
 import sigaa from './assets/sigaa.png'
 import cardapio from './assets/cardapio.png'
-import almoxarifado from './assets/almox.png'
 import clinica from './assets/clinica.png'
+import Preview from './assets/preview.png'
 
 function Projetos() {
+
+const projetos = [
+              { 
+                name: 'Clínica de Estética',
+                description: ' Samilla Maia – Estética Avançada Landing page institucional premium e responsiva desenvolvida para a clínica de estética avançada e integrativa Samilla Maia .',
+                image: clinica,
+                github: 'https://github.com/venilsongomes/clinica',
+                demo: 'https://venilsongomes.github.io/clinica/' ,
+                icon: 'fas fa-external-link-alt'
+              },
+              { 
+                name: 'InfoSec-Consulting',
+                description: ' InfoSec-Consulting – Serviços de consultoria em segurança da informação desenvolvidos para empresas que buscam proteger seus ativos digitais e garantir conformidade regulatória.',
+                image: Preview,
+                github: 'https://github.com/venilsongomes/InfoSec-Consulting',
+                demo: 'https://info-sec-consulting.vercel.app/' ,
+                icon: 'fas fa-external-link-alt'
+              },
+
+              { 
+                name: 'Cardapio Online',
+                description: 'Cardápio online interativo e responsivo para o bar Tio Patinha, agilizando o processo de pedidos e modernizando a comunicação.',
+                image: cardapio,
+                github: 'https://github.com/venilsongomes/cardapio',
+                demo: 'https://venilsongomes.github.io/cardapio/' ,
+                icon: 'fas fa-external-link-alt'
+              }
+              
+              
+
+]
+
+
     return (
         <section id='projetos' className='py-20 scroll-mt-20 flex-col justify-center mb-10'>
 
@@ -15,53 +48,27 @@ function Projetos() {
 
         <div class="grid grid-cols-3 gap-8 mb-10 px-4 max-[500px]:grid-cols-1 gap-4">
               
-               <div class="">
+         
+             
+             {projetos.map((projeto, index) => (
+                <div key={index} class="rounded-lg overflow-hidden card">
+                    <img src={projeto.image} alt={`Imagem do Projeto ${projeto.name}`} className='w-full h-48 object-cover' />      
+             
 
-                <div class="rounded-lg overflow-hidden card">
-               <img src={clinica} alt="Imagem do Projeto Clínica de Estética" className='w-full h-48 object-cover' />
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 text-white">Clínica de Estética</h3>
-                        <p class="text-gray-400 mb-4">Landing page para clínica de estética.</p>
+                        <h3 class="text-xl font-bold mb-2 text-black">{projeto.name}</h3>
+                        <p class="text-gray-400 mb-4">{projeto.description}</p>
                         <div class="flex space-x-4">
-                            <a href="https://github.com/venilsongomes/clinica" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
-                            <a href="https://venilsongomes.github.io/clinica/" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
+                            <a href={projeto.github} target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href={projeto.demo} target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
                         </div>
                     </div>
                 </div>
-                </div>
+             ))}
+        </div>
 
-                <div class="">
-                
-                <div class="rounded-lg overflow-hidden card">
-               <img src={cardapio} alt="Imagem do Projeto Cardápio" className='w-full h-48 object-cover' />
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 text-white">Cardápio Online</h3>
-                        <p class="text-gray-400 mb-4">Cardápio online interativo e responsivo para o bar Tio Patinha, agilizando o processo de pedidos e modernizando a comunicação.</p>
-                        <div class="flex space-x-4">
-                            <a href="https://github.com/venilsongomes/Cardapio" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
-                            <a href="https://venilsongomes.github.io/Cardapio/" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
-
-                 <div class="">
-                
-                <div class="rounded-lg overflow-hidden card">
-               <img src={sigaa} alt="Imagem do Projeto Sigaa" className='w-full h-48 object-cover' />
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 text-white">Sigaa</h3>
-                        <p class="text-gray-400 mb-4">Clone do Sistema de gerenciamento acadêmico para a Universidade Federal de Goiás.</p>
-                        <div class="flex space-x-4">
-                            <a href="https://github.com/venilsongomes/sigaa" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
-                            <a href="https://venilsongomes.github.io/sigaa/" target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
-                </div>
+               
+              
         </section>
     )
 }
