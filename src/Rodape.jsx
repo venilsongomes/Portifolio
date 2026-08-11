@@ -23,9 +23,9 @@ function Rodape() {
                     Mande um E-mail
                 </a>
                 <div class="mt-8 flex justify-center space-x-6">
-                    <a href="https://www.linkedin.com/in/venilsongomes/" target="_blank" class="text-blue-300 hover:text-white text-3xl transition-transform duration-300 hover:scale-125"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/venilsongomes" target="_blank" class="text-green-300 hover:text-white text-3xl transition-transform duration-300 hover:scale-125"><i class="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/venilson_gomes/" target="_blank" class="text-red-300 hover:text-white text-3xl transition-transform duration-300 hover:scale-125"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/venilsongomes/" target="_blank" class="text-gray-400 hover:text-white text-3xl transition-transform duration-300 hover:scale-125"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/venilsongomes" target="_blank" class="text-gray-400 hover:text-white text-3xl transition-transform duration-300 hover:scale-125"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/venilson_gomes/" target="_blank" class="text-gray-400 hover:text-white text-3xl transition-transform duration-300 hover:scale-125"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </section>
