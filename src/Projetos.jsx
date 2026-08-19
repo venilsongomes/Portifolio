@@ -40,27 +40,29 @@ const projetos = [
 
 
     return (
-        <section id='projetos' className='py-20 scroll-mt-20 flex-col justify-center mb-10'>
+        <section id='projetos' className='p-10 bg-[] scroll-mt-20 flex-col'>
 
-           <div className=' text-center mb-12'>
-            <h2 className='text-3xl md:text-4xl font-bold gradient-text'>Projetos</h2> 
-        </div>
+           <div className=' mb-20'>
+            <h2 className='text-3xl md:text-4xl font-serif text-[#050E21]'>Meus Projetos</h2> 
+             <p className="font-light text-lg">
+                 Aqui estão meus principais projetos, demonstrando minhas habilidades em desenvolvimento web e design. Cada projeto reflete meu compromisso com a qualidade, inovação e experiência do usuário.
+             </p>
+          </div>
 
-        <div class="grid grid-cols-3 gap-8 mb-10 px-4 max-[500px]:grid-cols-1 gap-4">
+        <div class="grid grid-cols-3 gap-8 mb-10 max-[500px]:grid-cols-1 gap-4">
               
          
-             
              {projetos.map((projeto, index) => (
-                <div key={index} class="rounded-lg overflow-hidden card">
-                    <img src={projeto.image} alt={`Imagem do Projeto ${projeto.name}`} className='w-full h-48 object-cover' />      
-             
-
+                <div key={index} class="rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+                   <a href={projeto.demo} target="_blank">
+                     <img src={projeto.image} alt={`Imagem do Projeto ${projeto.name}`} className='w-full h-48 object-cover' />
+                   </a>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-black">{projeto.name}</h3>
                         <p class="text-gray-400 mb-4">{projeto.description}</p>
                         <div class="flex space-x-4">
-                            <a href={projeto.github} target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
-                            <a href={projeto.demo} target="_blank" class="text-highlight-color hover:text-white transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
+                            <a href={projeto.github} target="_blank" class="text-[#050E21] hover:text-gray-400 transition-colors"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href={projeto.demo} target="_blank" class="text-[#050E21] hover:text-gray-400 transition-colors"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
                         </div>
                     </div>
                 </div>
