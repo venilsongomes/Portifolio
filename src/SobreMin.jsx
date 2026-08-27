@@ -6,37 +6,37 @@ function Sobre(){
     return(
         
        
-       <div id='sobre' className="sobreMin"> 
+       <div id='sobre' className="p-20 scroll-mt-20 flex-col"> 
 
-       <div class="text-center mb-12"> 
+       <div class=" text-center mb-40"> 
 
-        <h1 class="text-3xl md:text-4xl mt-10 mb-4 font-bold text-gray-500"> Sobre Mim </h1> 
-         <p className='text-xl'> Aqui você encontrará mais informações sobre mim, 
+        <h1 class="text-3xl md:text-4xl mt-10 mb-4 font-serif text-gray-500"> Sobre Mim </h1> 
+         <p className='font-light'> Aqui você encontrará mais informações sobre mim, 
             o que faço e minhas habilidades atuais, <br></br> principalmente 
             em termos de programação e tecnologia. 
         </p>  
         </div>
         
 
-        <section className="flex justify-center gap-10 cavalo">
+        <section className="flex justify-between gap-10 mt-10 max-[500px]:flex-col">
 
-         <div className="conhecer">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-500">Habilidades</h2>
+         <div className="w-1/2">
+            <div class="">
+                <h2 class="text-3xl md:text-4xl font-serif mb-10">Habilidades</h2>
             </div>
             
-                    <p className=''> "Estudante de Sistemas de Informação e apaixonado por inovação tecnológica. Minha base sólida em JavaScript, Java (POO) e C foi aprimorada com React e Node. 
-                     Busco oportunidades para aplicar minha paixão, habilidade e dedicação em projetos de desenvolvimento inovadores. 
-                     Vamos criar o futuro da tecnologia juntos 
-                     <br /> <button  className="btn btn-outline-primary" ><a className='text-decoration-none text-black' href="#contato">Contato</a></button>  </p>
+                    <p className='text-justify font-light'> Bacharel em Sistemas de Informação (UFG),. 
+                        Experiência em desenvolvimento web (React, Node.js, Java) e banco de dados (SQL, MongoDB). 
+                        Sólida bagagem em infraestrutura de TI e resolução de problemas complexos. 
+                     <br /> <button  className="" ><a className='text-decoration-none text-black' href="#contato">Contato</a></button>  </p>
              
             </div>
 
             
-         <div class="text-center mb-12 ">
-            <h1 className='text-3xl md:text-4xl font-bold text-gray-500 mb-20'> Minhas Skills</h1>
+         <div class=" ">
+            <h1 className='text-3xl mb-10 md:text-4xl font-serif text-gray-500'> Minhas Skills</h1>
 
-            <div className='skill'> 
+            <div className='grid grid-cols-4 gap-4 mt-4 max-[500px]:grid-cols-1'> 
 
                 <div class="flex flex-col items-center p-4 rounded-lg card">
                     <i class="fab fa-html5 text-5xl text-orange-500 mb-2"></i>
@@ -72,10 +72,7 @@ function Sobre(){
                     <i class="fab fa-java text-5xl text-red-400 mb-2"></i>
                     <span class="font-semibold">Java</span>
                 </div>
-                 <div class="flex flex-col items-center p-4 rounded-lg card">
-                    <i class="fab fa-bootstrap text-5xl text-purple-500 mb-2"></i>
-                    <span class="font-semibold">Bootstrap</span>
-                </div>
+                
               
               </div>
               
