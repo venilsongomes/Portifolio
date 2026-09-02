@@ -3,10 +3,10 @@
     width: 100%;
     justify-content: center;
     position: fixed;
-    background-image: url('');
+   
     background-size: cover;
     align-items: center;
-    background-color: #FAFAFA;
+   
     z-index: 1000;
     box-shadow: #646262 0px 0px 5px;
 
@@ -17,16 +17,16 @@
         font-size: 18px;
         font-weight: bold;
         list-style-type: none;
-        color: #000;
+       
     }
 
 
     & a {
         text-decoration: none;
-         color: #000;
+         
     }
     & li:hover{
-        color: #837c7c;
+        
 
     }
     & .dropdown{
