@@ -44,7 +44,7 @@ const projetos = [
 
            <div className=' mb-20'>
             <h2 className='text-3xl md:text-4xl font-serif text-[#050E21]'>Meus Projetos</h2> 
-             <p className="font-light text-lg">
+             <p className="font-light text-justify">
                  Aqui estão meus principais projetos, demonstrando minhas habilidades em desenvolvimento web e design. Cada projeto reflete meu compromisso com a qualidade, inovação e experiência do usuário.
              </p>
           </div>

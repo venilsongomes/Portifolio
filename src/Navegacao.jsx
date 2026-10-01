@@ -10,7 +10,7 @@ function Navegacao() {
 
 
   return (
-    <nav className="flex bg-[#050E21] justify-between p-3 text-gray-300 fixed top-0 left-0 right-0 shadow z-1">
+    <nav  className="flex bg-[#050E21] justify-between p-3 text-gray-300 fixed top-0 left-0 right-0 shadow z-1">
 
       <div className="hidden md:flex flex items-center gap-2">
         <a href="#home" className="inline-flex items-center no-underline">
@@ -34,9 +34,9 @@ function Navegacao() {
       <ul className="hidden md:flex  gap-8 items-center">
 
           <li><a href="#home" className='no-underline text-gray-300 hover:text-[#A67314]'>Home</a></li>
-          <li><a href="#about" className='no-underline text-gray-300 hover:text-[#A67314]'>Sobre</a></li>
-          <li> <a href="#services" className='no-underline text-gray-300 hover:text-[#A67314]'>Projetos</a> </li>
-          <li><a href="#contact" className='no-underline text-gray-300 hover:text-[#A67314]'>Contato</a></li>
+          <li><a href="sobre" className='no-underline text-gray-300 hover:text-[#A67314]'>Sobre</a></li>
+          <li> <a href="#projetos" className='no-underline text-gray-300 hover:text-[#A67314]'>Projetos</a> </li>
+          <li><a href="#contato" className='no-underline text-gray-300 hover:text-[#A67314]'>Contato</a></li>
           
       </ul>
 
@@ -47,9 +47,9 @@ function Navegacao() {
         }`}
       >
         <li><a href="#home" className="no-underline font-semibold text-sm hover:text-[#D4AF37]" onClick={toggleMenu}>Home</a></li>
-        <li><a href="#about" className="no-underline font-semibold text-sm hover:text-[#D4AF37]" onClick={toggleMenu}>Sobre</a></li>
-        <li><a href="#services" className="no-underline font-semibold text-sm hover:text-[#D4AF37]" onClick={toggleMenu}>Projetos</a></li>
-        <li><a href="#contact" className="no-underline font-semibold text-sm hover:text-[#D4AF37]" onClick={toggleMenu}>Contato</a></li>
+        <li><a href="#sobre" className="no-underline font-semibold text-sm hover:text-[#D4AF37]" onClick={toggleMenu}>Sobre</a></li>
+        <li><a href="#projetos" className="no-underline font-semibold text-sm hover:text-[#D4AF37]" onClick={toggleMenu}>Projetos</a></li>
+        <li><a href="#contato" className="no-underline font-semibold text-sm hover:text-[#D4AF37]" onClick={toggleMenu}>Contato</a></li>
 
       </ul>
 

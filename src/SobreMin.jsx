@@ -6,35 +6,35 @@ function Sobre(){
     return(
         
        
-       <div id='sobre' className="p-20 scroll-mt-20 flex-col"> 
+       <div id='sobre' className="p-10 scroll-mt-20 flex-col"> 
 
-       <div class=" text-center mb-40"> 
+       <div class=" text-center mb-20"> 
 
-        <h1 class="text-3xl md:text-4xl mt-10 mb-4 font-serif text-gray-500"> Sobre Mim </h1> 
-         <p className='font-light'> Aqui você encontrará mais informações sobre mim, 
+        <h1 class="text-3xl md:text-4xl mt-10 mb-4 font-serif"> Sobre Mim </h1> 
+         <p className='font-light text-justify md:text-center'> Aqui você encontrará mais informações sobre mim, 
             o que faço e minhas habilidades atuais, <br></br> principalmente 
             em termos de programação e tecnologia. 
         </p>  
         </div>
         
 
-        <section className="flex justify-between gap-10 mt-10 max-[500px]:flex-col">
+        <section className="flex justify-between gap-10 max-[500px]:flex-col">
 
-         <div className="w-1/2">
+         <div className="w-full md:w-1/2">
             <div class="">
                 <h2 class="text-3xl md:text-4xl font-serif mb-10">Habilidades</h2>
             </div>
             
-                    <p className='text-justify font-light'> Bacharel em Sistemas de Informação (UFG),. 
-                        Experiência em desenvolvimento web (React, Node.js, Java) e banco de dados (SQL, MongoDB). 
-                        Sólida bagagem em infraestrutura de TI e resolução de problemas complexos. 
-                     <br /> <button  className="" ><a className='text-decoration-none text-black' href="#contato">Contato</a></button>  </p>
+                    <p className='text-justify font-light text-justify'> Bacharel em Sistemas de Informação (UFG),. <br/>
+                        Experiência em desenvolvimento web <br/> (React, Node.js, Java) e banco de dados (SQL, MongoDB). 
+                       <br/> Sólida bagagem em infraestrutura de TI e resolução de problemas complexos. 
+                     </p>
              
             </div>
 
             
          <div class=" ">
-            <h1 className='text-3xl mb-10 md:text-4xl font-serif text-gray-500'> Minhas Skills</h1>
+            <h1 className='text-3xl md:text-4xl font-serif'> Minhas Skills</h1>
 
             <div className='grid grid-cols-4 gap-4 mt-4 max-[500px]:grid-cols-1'> 
 

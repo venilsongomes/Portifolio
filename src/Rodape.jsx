@@ -11,8 +11,8 @@ function Rodape() {
 
       <section id="contato" class="py-20 scroll-mt-20">
              <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-500">Entre em Contato</h2>
-                 <p class="text-lg text-gray-400 mt-4">Estou disponível para freelance e novas oportunidades. Vamos conversar!</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-200">Entre em Contato</h2>
+                 <p class="text-lg text-gray-400 p-4">Estou disponível para freelance e novas oportunidades. Vamos conversar!</p>
             </div>
             <div class="max-w-lg mx-auto text-center">
                  
