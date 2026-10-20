@@ -30,7 +30,7 @@ const projetos = [
                 description: 'Cardápio online interativo e responsivo para o bar Tio Patinha, agilizando o processo de pedidos e modernizando a comunicação.',
                 image: cardapio,
                 github: 'https://github.com/venilsongomes/cardapio',
-                demo: 'https://venilsongomes.github.io/cardapio/' ,
+                demo: https://venilsongomes.github.io/Cardapio/' ,
                 icon: 'fas fa-external-link-alt'
               }
               
